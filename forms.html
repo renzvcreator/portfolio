@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+
+    <link rel="stylesheet" href="formsstyle.css">
+
+</head>
+<body>
+     <section id="contact-form" class="form-container">
+        <h2 class="section-title">Get in Touch</h2>
+        <form action="#" method="post" autocomplete="on">
+
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="fullname">Full Name</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Enter your name" required maxlength="50">
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="example@email.com" required>
+
+                <label for="age">Age</label>
+                <input type="number" id="age" name="age" min="1" max="120">
+            </fieldset>
+
+
+            <fieldset>
+                <legend>Preferences</legend>
+                <label>Gender</label>
+                <div class="radio-group">
+                    <label class="inline-option"><input type="radio" name="gender" value="male" checked> Male</label>
+                    <label class="inline-option"><input type="radio" name="gender" value="female"> Female</label>
+                    <label class="inline-option"><input type="radio" name="gender" value="Prefer not to say"> Prefer not to say</label>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>What you want to work with?</legend>
+                <label for="comments">Say it here</label>
+                <textarea id="comments" name="comments" rows="4" placeholder="Write here..."></textarea>
+
+                <label for="country">Province</label>
+                <select id="country" name="country">
+                    <option value="">-- Select --</option>
+                    <option value="DavaoDelSur">Davao Del Sur</option>
+                    <option value="DavaoOriental">Davao Oriental</option>
+                    <option value="DavaoOccidental">Davao Occidental</option>
+                </select>
+            </fieldset>
+
+            <div class="form-actions">
+                <button type="submit" class="btn btn-primary">Submit Form</button>
+                <button type="reset" class="btn-reset">Reset</button>
+            </div>
+
+        </form>
+    </section>
+</body>
+</html>

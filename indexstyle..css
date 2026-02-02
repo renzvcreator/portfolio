@@ -1,0 +1,125 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(220, 220, 230);
+    background: radial-gradient(circle at top right, rgba(20, 20, 40, 0.8), rgba(10, 10, 25, 0.9));
+   }
+   .header{
+    background: radial-gradient(circle at top, rgba(45, 35, 70, 0.95), rgba(15, 15, 35, 0.9));
+    color: rgb(240, 240, 250);
+    text-align: center;
+    padding: 30px 10px;
+    font-size: large;
+   }
+   .section {
+    padding: 50px;
+    text-align:start;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+   .main {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+   }
+   .cards{
+    background-color: rgb(35, 35, 55);
+    border-radius: 5px;
+    box-shadow: 25px;
+    width: 200px;
+    margin-bottom: 20px;
+    padding: 10px;
+   }
+   .projcards {
+    background-color: rgb(35, 35, 55);
+    border-radius: 5px;
+    box-shadow: 25px;
+    width: 200px;
+    margin-bottom: 20px;
+    padding: 10px;
+   }
+   .ContactCards {
+    background-color: rgb(50, 50, 70);
+    border-radius: 5px;
+    box-shadow: 25px;
+    width: 200px;
+    margin-bottom: 20px;
+    padding: 10px;
+   }
+   .fa-html5 {
+    color: rgb(255, 80, 80);
+    font-size: 50px;
+    margin-top: 10px;
+   }
+   .fa-throphy{
+    color: rgb(255, 200, 60);
+    font-size: 50px;
+    margin-top: 10px;
+   }
+   .fa-code {
+    color: rgb(80, 200, 180);
+    font-size: 50px;
+    margin-top: 10px;
+   }
+   .fa-python {
+    color: rgb(100, 160, 255);
+    font-size: 50px;
+    margin-top: 10px;
+   }
+   .fa-java {
+    color: rgb(255, 140, 60);
+    font-size: 50px;
+    margin-top: 10px;
+
+   }
+   .fa-css3 {
+    color: rgb(70, 180, 255);
+    font-size: 50px;
+    margin-top: 10px;
+   }
+   .fa-circle-user {
+    color: rgb(120, 120, 180);
+    font-size: 40px;
+    margin-top: 10px;
+    padding: 15px;
+   }
+   .fa-instagram {
+    color: rgb(220, 50, 110);
+    font-size: 30px;
+    margin-top: 10px;
+   }
+   .fa-facebook {
+    color: rgb(60, 100, 180);
+    font-size: 30px;
+    margin-top: 10px;
+   }
+   .fa-square-github {
+    color: rgb(180, 180, 180);
+    font-size: 30px;
+    margin-top: 10px;
+   }
+   .ownership {
+    padding: 100px;
+   text-align: center;
+   }
+
+   .container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+   }
+   .cards:nth-child(1),
+   .cards:nth-child(2),
+
+   .cards:nth-child(3),
+   .cards:nth-child(4),
+   .cards:nth-child(5),
+   .cards:nth-child(6) {
+    width: 25%;
+   }
